@@ -17,14 +17,17 @@ class PaginaUno extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              'Página Inicial',
+              'AHR 0599',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               style: ElevatedButton.styleFrom(backgroundColor: Colors.orange),
               onPressed: () => Navigator.pushNamed(context, '/segunda'),
-              child: const Text('Ir a la Segunda Página', style: TextStyle(color: Colors.white)),
+              child: const Text(
+                'Ir a la Segunda Página',
+                style: TextStyle(color: Colors.white),
+              ),
             ),
           ],
         ),
